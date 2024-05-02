@@ -1,0 +1,32 @@
+.submit-container {
+    /* border: 1px solid black; */
+    /* width: 80%; */
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.submit-container button {
+    display: none;
+}
+
+.submit-container label {
+    
+    width: 80%;
+    height: 60px;
+    padding: 5px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: bold;
+    background-color: #0dc200;
+    border-radius: 10px;
+}
+.submit-container label:hover {
+    cursor: pointer;
+    background-color: #0ed800CC;
+}
